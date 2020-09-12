@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatargold.png" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -48,15 +48,15 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
+      {% if site.resume_section_SPO %}
+      <!-- begin SPO Recommenations-->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Recommended SPOs</h2>
         </header>
 
-        {% for job in site.data.experience %}
+        {% for job in site.data.spo %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
@@ -65,7 +65,7 @@
         {% endfor %}
 
       </section>
-      <!-- end Experience -->
+      <!-- end SPO Recommendations -->
       {% endif %}
 
 
@@ -232,8 +232,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Vote VOLT <a href="http://twitter.com/volt_pool">@volt_pool</a>.
+        <p class="footer-line">Drew [VOLT] always Transparent</p>
       </footer>
 
     </div>
