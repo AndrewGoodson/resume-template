@@ -23,7 +23,9 @@ resume_contact_email:           "info@voltairera.com"
 #resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I have been with Cardano since September 2017 silently in the background and actively engaging on the Cardano Forums and Reddit. But what makes me a prime candidate for SPOCRA? A SPOs job is to ensure we provide a robust ecosystem for the future of Cardano. While some SPOs want to run their pools and reap the rewards, the primary objective of the pool is to maintain a secure and robust network. That takes a deep understanding of Cardano, commitment, and time. From reading Cardano whitepapers too answering forum and reddit questions to educate and support the Cardano Ecosystem for the past 3 years, I have an understanding. I am more committed then I have ever been in supporting and growing the Cardano ecosystem even if my Pool does not. I will always be part of the SPO community for years to come. I am fortunate enough to work fully remote and in a position, where I can spend a few hours a day supporting the community where needed. While many out their don’t know me I tend to be in the background reading and understanding how the community feels as a whole and not as an individual. But who am I? I am a Cloud Security Engineer with over 7 years in Securing, breaking, and defending networks and applications. I have been in computers since the days they used floppy discs in our computer lab. If I was voted on the board, I would ensure every voice is heard and all SOCRA’s decisions are recorded and transparent.</p>"
+resume_header_intro:  "<p>I have been with Cardano since September 2017 silently in the background and actively engaging on the Cardano Forums and Reddit. But what makes me a prime candidate for SPOCRA? A SPOs job is to ensure we provide a robust ecosystem for the future of Cardano. That takes a deep understanding of Cardano, commitment, and time. From reading Cardano whitepapers too answering forum and reddit questions to educating and supporting the Cardano Ecosystem for the past 3 years, I have an understanding.
+While many out there don’t know me, I tend to be in the background reading and understanding how the community feels as a whole. If I was voted on the board, I would ensure every voice is heard and all SOCRA’s decisions are recorded and transparent.</p>"
+
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -36,7 +38,7 @@ resume_header_intro: "<p>I have been with Cardano since September 2017 silently 
 #resume_section_SPO:      true
 #resume_section_education:       true
 #resume_section_projects:        true
-#resume_section_skills:          true
+resume_section_skills:          true
 #resume_section_recognition:     true
 #resume_section_links:           true
 #esume_section_associations:    true
